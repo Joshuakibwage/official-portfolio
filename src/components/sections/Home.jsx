@@ -24,11 +24,11 @@ const Home = () => {
                     View Projects
                 </a>
 
-                <a href="#projects" className="border border-[#40c057] py-3 px-6 rounded font-medium 
+                <a href="#contact" className="border border-[#40c057] py-3 px-6 rounded font-medium 
                 text-[#40c057] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2b4730] 
                 hover:shadow-[0_0_15px_#40c057]"
                 >
-                    View Projects
+                    Contact Me
                 </a>
             </div>
         </div>

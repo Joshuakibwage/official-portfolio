@@ -16,12 +16,14 @@ const About = () => {
 
             <div className="max-w-3xl mx-auto px-4">
                 <h2 className="text-3xl mb-8 font-bold bg-gradient-to-r from-[#9775fa] to-[#40c057] 
-                bg-clip-text text-transparent"
+                bg-clip-text text-transparent text-center"
                 >
                     About Me
                 </h2>
 
-                <div className="rounded-xl glass p-8 border-white/10 border hover:translate-y-1 transition-all">
+                <div className="rounded-xl glass p-8 border-white/10 border hover:translate-y-1 
+                transition-all hover:border-[#9775fa] hover:shadow-[0_0_15px_#9775fa]"
+                >
                     <p className="text-gray-300 mb-6">
                         Passionate developer in building scalable web applications and creating
                          innovative solutions.
@@ -29,7 +31,8 @@ const About = () => {
 
                     <div className="">
 
-                        <div className="rounded-xl p-6 hover:translate-y-1 transition-all">
+                        <div className="rounded-xl p-6 hover:translate-y-1 transition-all "
+                        >
                             <h3 className="text-xl font-bold mb-6">Front-End</h3>
                             <div className="flex flex-wrap gap-4">
                                 {frontendSkills.map((tech) => ( 
