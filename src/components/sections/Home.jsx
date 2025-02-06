@@ -20,12 +20,14 @@ const Home = () => {
 
             <div className="flex justify-center space-x-4">
                 <a href="#projects" className="bg-[#9775fa] text-white py-3 px-6 rounded font-medium 
-                relative transition overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px]_#40c057">
+                relative transition overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_#9775fa]">
                     View Projects
                 </a>
 
-                <a href="#projects" className="border border-[#9775fa] py-3 px-6 rounded font-medium 
-                text-[#9775fa] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#302c3b]">
+                <a href="#projects" className="border border-[#40c057] py-3 px-6 rounded font-medium 
+                text-[#40c057] transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2b4730] 
+                hover:shadow-[0_0_15px_#40c057]"
+                >
                     View Projects
                 </a>
             </div>

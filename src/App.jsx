@@ -3,7 +3,9 @@ import MobileMenu from "./components/MobileMenu";
 import Navbar from "./components/Navbar";
 import "./index.css";
 import { useState } from "react";
-import Home from "./components/sections/Home"
+import Home from "./components/sections/Home";
+import About from "./components/sections/About";
+import Projects from "./components/sections/Projects";
 
   
  
@@ -24,6 +26,8 @@ import Home from "./components/sections/Home"
           <Navbar nav={nav} setNav={setNav} />
           <MobileMenu nav={nav} setNav={setNav}/>
           <Home />
+          <About />
+          <Projects />
         </div>
      </>
    )
