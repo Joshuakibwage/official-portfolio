@@ -73,7 +73,7 @@ const Projects = () => {
                                 key={tech}
                                 className="bg-green-500/10 text-[#40c057] py-1
                                 px-3 rounded-full text-sm hover:bg-green-500/20 hover:shadow-[0_0_15px_#40c057]
-                                transition"
+                                transition mx-3"
                                 >
                                     {tech}
                                 </span>
