@@ -59,7 +59,7 @@ const Projects = () => {
 
                         <div className="space-y-2">
                             <div className="mb-4">
-                                <a href={project.links.site}>
+                                <a href={project.links.site} target="_blank">
                                     <img 
                                         src={project.img} 
                                         alt={project.title} 
@@ -82,10 +82,13 @@ const Projects = () => {
 
                         <div className="flex items-center gap-4 mt-4">
                             <a
-                            className="hover:translate-y-1 hover:text-gray-400" 
+                            className="hover:translate-y-1 hover:text-gray-400 flex items-center text-sm 
+                            gap-2" 
                             href={project.links.github}
+                            target="_blank"
                             >
-                             <FaGithubSquare size={30} />
+                                <FaGithubSquare size={30} />
+                                GitHub
                             </a>
                             <a 
                                 className="flex items-center gap-1 hover:translate-y-1 hover:text-[#9775fa]"
