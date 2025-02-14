@@ -10,7 +10,7 @@ const Projects = () => {
         {
             img: project1,
             title: "Travel Planner",
-            description: "Travel planner project",
+            description: " Smart and intuitive tool designed to help users plan, organize, and manage trips effortlessly.",
             links: {
                 site: "https://travel-planner-ebon.vercel.app/",
                 github: "https://github.com/Joshuakibwage/travel-planner"
@@ -19,7 +19,7 @@ const Projects = () => {
         {
             img: project2,
             title: "Todo List",
-            description: "Todo list project",
+            description: "Allows users to add, edit, delete, and mark tasks as complete, helping them stay organized and productive.",
             links: {
                 site: "https://mytodolist-eosin.vercel.app/",
                 github: "https://github.com/Joshuakibwage/react-todo"
@@ -27,7 +27,7 @@ const Projects = () => {
         },{
             img: project3,
             title: "News Homepage",
-            description: "Newsreader platform",
+            description: "Modern and responsive platform designed to showcase the latest headlines and trending stories in a visually appealing layout",
             links: {
                 site: "https://news-homepage-tau-ten.vercel.app/",
                 github: "https://github.com/Joshuakibwage/news-homepage"
