@@ -14,7 +14,8 @@ const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                A passionate front-end developer with a keen eye for design and a strong foundation in  
+                A passionate <strong className="text-[#9775fa] text-xl">front-end</strong> developer 
+                with a keen eye for design and a strong foundation in  
                 <strong className="text-[#9775fa] text-xl"> HTML</strong>, 
                 <strong className="text-[#9775fa] text-xl"> CSS</strong>, 
                 <strong className="text-[#9775fa] text-xl"> JavaScript</strong>, and 

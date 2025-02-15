@@ -67,9 +67,11 @@ const About = () => {
                         </h3>
 
                         <ol className="list-disc text-gray-300">
-                            <li>Build responsive and dynamic web applications</li>
+                            <li>
+                                Build <strong className="text-[#9775fa]">responsive</strong> and dynamic web applications
+                            </li>
                             <li>Work with React, Tailwind CSS, and Zustand for state management</li>
-                            <li>Optimize UI/UX for performance and accessibility</li>
+                            <li>Optimize <strong className="text-[#9775fa]">UI/UX</strong> for performance and accessibility</li>
                         </ol>
                     </div>
 
@@ -81,9 +83,10 @@ const About = () => {
                             What Drives Me <span>💡</span>
                         </h3>
                         <p className="text-gray-300">
-                        I love problem-solving, whether it’s debugging a tricky component or fine-tuning a 
-                        layout for pixel-perfect precision. Seeing a design come to life through code is what 
-                        excites me the most.
+                        I love <strong className="text-[#9775fa]">problem-solving</strong>, whether it’s 
+                        <strong className="text-[#9775fa]"> debugging</strong> a tricky component or fine-tuning 
+                        layout for <strong className="text-[#9775fa]">pixel-perfect</strong> precision. 
+                        Seeing a design come to life through code is what excites me the most.
                         </p>
                     </div>
                 </div>
