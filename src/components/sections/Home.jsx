@@ -14,8 +14,12 @@ const Home = () => {
             </h1>
 
             <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                A passionate front-end developer with a keen eye for design and a strong foundation in HTML, 
-                CSS, JavaScript, and React. Let's build something amazing together!
+                A passionate front-end developer with a keen eye for design and a strong foundation in  
+                <strong className="text-[#9775fa] text-xl"> HTML</strong>, 
+                <strong className="text-[#9775fa] text-xl"> CSS</strong>, 
+                <strong className="text-[#9775fa] text-xl"> JavaScript</strong>, and 
+                <strong className="text-[#9775fa] text-xl"> React</strong>.
+                Let's build something amazing together!
             </p>
 
             <div className="flex justify-center space-x-4">
