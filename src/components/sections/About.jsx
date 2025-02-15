@@ -26,10 +26,11 @@ const About = () => {
                 transition-all hover:border-[#9775fa] hover:shadow-[0_0_15px_#9775fa] text-center"
                 >
                     <p className="text-gray-300 mb-6 text-left">
-                        My journey into web development started with a deep curiosity about how websites 
+                        My journey into <strong className="text-[#9775fa]">web development </strong>started with a deep curiosity about how websites 
                         work. After months of dedicated learning and hands-on practice, I built a strong
-                         foundation in front-end technologies and UI/UX best practices. Now, I focus on 
-                         crafting clean, maintainable code and seamless user experiences.
+                        foundation in <strong className="text-[#9775fa]">front-end</strong> technologies 
+                        and <strong className="text-[#9775fa]">UI/UX</strong> best practices. Now, I focus on 
+                         crafting clean, maintainable code and seamless <strong className="text-[#9775fa]">user experiences</strong>.
                     </p>
 
                     <div className="">
