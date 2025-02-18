@@ -4,11 +4,11 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return(
         <footer className="w-full ">
-          <div className="w-3/4 mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-center
-            md:items-center ">
-            <div className="flex">
-                <p className="text-gray-300">&copy; 2025 Joshua Kibwage</p>
-            </div>
+          <div className="container mx-auto flex flex-col items-center space-y-6 py-8 md:flex-row 
+          md:justify-between md:items-start ">
+            
+            <p className="text-gray-300">&copy; 2025 Joshua Kibwage</p>
+            
             <div className="flex gap-4">
                 <a 
                     href="https://github.com/Joshuakibwage" 
