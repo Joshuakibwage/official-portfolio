@@ -1,6 +1,6 @@
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
-import project1 from "../../assets/projectsImage.png"
+import project1 from "../../assets/project1-image.png"
 import project2 from "../../assets/project2-image.png"
 import project3 from "../../assets/project-3-image.png"
 import project4 from "../../assets/project4-image.png"
@@ -10,11 +10,11 @@ const Projects = () => {
     const myProjects = [
         {
             img: project1,
-            title: "Travel Planner",
-            description: " Smart and intuitive tool designed to help users plan, organize, and manage trips effortlessly.",
+            title: "Nike Landing page",
+            description: "This project was a great way to refine my UI/UX skills, typography, and responsiveness while experimenting with modern frontend design trends. ",
             links: {
-                site: "https://travel-planner-ebon.vercel.app/",
-                github: "https://github.com/Joshuakibwage/travel-planner"
+                site: "https://nike-shop-landingpage.vercel.app/",
+                github: "https://github.com/Joshuakibwage/nike-shop"
             },
         },
         {
