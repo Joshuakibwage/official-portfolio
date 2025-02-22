@@ -4,8 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
     return(
         <footer className="w-full ">
-          <div className="container mx-auto flex flex-col items-center space-y-6 py-8 md:flex-row 
-          md:justify-between md:items-center border-t border-gray-800">
+          <div className="container mx-auto flex flex-col items-center gap-4 py-8 md:flex-row 
+          md:justify-between border-t border-gray-800">
 
             <div className="flex gap-4">
                 <a 
