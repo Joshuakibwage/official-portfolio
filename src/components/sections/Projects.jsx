@@ -94,7 +94,7 @@ const Projects = () => {
                         <div className="flex items-center gap-4 mt-4">
                             <a
                             className="hover:translate-y-1 hover:text-gray-400 flex items-center text-sm 
-                            gap-2" 
+                            gap-2 delay-200 ease-in-out transition-all" 
                             href={project.links.github}
                             target="_blank"
                             >
@@ -102,7 +102,8 @@ const Projects = () => {
                                 GitHub
                             </a>
                             <a 
-                                className="flex items-center gap-1 hover:translate-y-1 hover:text-[#9775fa]"
+                                className="flex items-center gap-1 hover:translate-y-1 hover:text-[#9775fa]
+                                delay-200 ease-in-out transition-all"
                                 href={project.links.site}
                                 target="_blank"
                             >
