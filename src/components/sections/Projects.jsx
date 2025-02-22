@@ -3,6 +3,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import project1 from "../../assets/projectsImage.png"
 import project2 from "../../assets/project2-image.png"
 import project3 from "../../assets/project-3-image.png"
+import project4 from "../../assets/project4-image.png"
 
 const Projects = () => {
 
@@ -24,13 +25,23 @@ const Projects = () => {
                 site: "https://mytodolist-eosin.vercel.app/",
                 github: "https://github.com/Joshuakibwage/react-todo"
             },
-        },{
+        },
+        {
             img: project3,
             title: "News Homepage",
             description: "Modern and responsive platform designed to showcase the latest headlines and trending stories in a visually appealing layout",
             links: {
                 site: "https://news-homepage-tau-ten.vercel.app/",
                 github: "https://github.com/Joshuakibwage/news-homepage"
+            }
+        },
+        {
+            img: project4,
+            title: "Code tutor app",
+            description: "A platform that connects learners with experienced developers for personalized coding lessons and mentorship.",
+            links: {
+                site: "https://code-tutor-landingpage.vercel.app/",
+                github: "https://github.com/Joshuakibwage/code-tutor-landingpage"
             }
         }
     ]
