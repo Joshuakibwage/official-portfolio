@@ -25,8 +25,14 @@ import Footer from "./components/Footer";
             isLoaded ? "opacity-100" : "opacity-0"
           } bg-black text-gray-100`}
         >
-          <Navbar nav={nav} setNav={setNav} />
-          <MobileMenu nav={nav} setNav={setNav}/>
+          <Navbar 
+            nav={nav} 
+            setNav={setNav} 
+          />
+          <MobileMenu 
+            nav={nav} 
+            setNav={setNav}
+          />
           <Home />
           <About />
           <Projects />
